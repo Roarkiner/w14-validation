@@ -1,0 +1,53 @@
+h1{
+    color: black;
+    background-color: rgba(78, 129, 142, 0.5);
+    width: fit-content;
+    border: 1px solid black;
+    border-radius: 25px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    margin-bottom: 100px;
+}
+
+form{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form p{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+fieldset{
+    font-size: 1.3em;
+    width: 100%;
+    background-color: rgba(78, 129, 142, 0.5);
+}
+
+fieldset > div{
+    padding: 1em;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+fieldset div div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox{
+    height: 20px;
+    width: 20px;
+}
+
+#submit{
+    width: fit-content;
+    padding: 5px 10px;
+}
